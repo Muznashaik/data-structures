@@ -1,0 +1,20 @@
+#prime number or not with o(n) complexity
+def prime(n):
+    for i in range(2,n):
+        if n%i==0:
+            return "not a prime"
+    return "prime"
+
+a=int(input())
+print(prime(a))
+#optimzed method
+def prime(n):
+    c=2
+    while(c*c<=n):
+        if n%c==0:
+            return "not a prime"
+        c+=1
+    return "prime"
+
+a=int(input())
+print(prime(a))
