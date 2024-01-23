@@ -7,6 +7,9 @@ def prime(n):
 
 a=int(input())
 print(prime(a))
+
+
+
 #optimzed method
 def prime(n):
     c=2
