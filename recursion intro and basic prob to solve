@@ -1,0 +1,15 @@
+you break down bigger prob into smaller prob ..now all these smaller probs combinedly will help you to solve the bigger prob...
+two things are important in recursion
+1.base case
+2.recursive case----will help you to get the small answer
+1.factorial
+2.fibanocci
+3.count digits
+4.increasing to decreasing and vice versa
+5.given an array,you need to tell weather the array is sorted or not in recursion
+6.First occurence of a number in an array
+7.find the last occurence
+
+
+ 
+
