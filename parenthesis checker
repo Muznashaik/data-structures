@@ -1,0 +1,12 @@
+def ispar(self,x):
+        stack=[]
+        dicti={')':'(','}':'{',']':'['}
+        for i in x:
+            if i in dicti.values():
+                stack.append(i)
+            elif i in dicti:
+                if not stack or stack.pop()!=dicti[i]:
+                    return False
+            else:
+                return False
+        return not stack
